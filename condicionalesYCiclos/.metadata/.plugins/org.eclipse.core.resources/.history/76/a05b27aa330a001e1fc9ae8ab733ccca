@@ -1,0 +1,34 @@
+package ciclosYCondicionales;
+
+public class condicionalesYCiclos {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Condicionales
+		 * 
+		 * 
+		 * if
+		 * else
+		 * else if
+		 * switch
+		 */
+	
+	
+		System.out.println("Programa para calcular la hora");
+		
+		int hora = 13;
+		
+		if(hora >= 0 && hora <= 24) { //true
+			System.out.println("Buenos dias solecito");
+		}
+
+
+		
+		
+
+	}
+
+}

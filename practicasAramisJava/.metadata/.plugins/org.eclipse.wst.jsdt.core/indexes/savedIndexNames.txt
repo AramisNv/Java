@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Windows\WorkspaceSesionesTecnicas\practicasAramisJava\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3715859096.index
+2762287981.index
+3708611000.index
+3928580759.index
+3230438721.index
+643376615.index

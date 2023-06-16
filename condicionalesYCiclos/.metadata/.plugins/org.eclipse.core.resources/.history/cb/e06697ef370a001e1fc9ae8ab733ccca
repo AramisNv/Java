@@ -1,0 +1,43 @@
+package ciclosYCondicionales;
+import java.util.Scanner;
+
+
+public class condicionalesYCiclos {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		
+		// TODO Auto-generated method stub
+
+		/*
+		 * Condicionales
+		 * 
+		 * 
+		 * if
+		 * else
+		 * else if
+		 * switch
+		 */
+	
+	
+		System.out.println("Programa para calcular la hora");
+		
+		Scanner hora = new Scanner(System.in);
+		System.out.println("Por favor ingrese una hora en formato 24 horas: ");
+		int valorIngresado= hora.nextInt();
+		
+		if(valorIngresado >= 0 && valorIngresado <= 24) { //true
+			System.out.println("Buenos dias solecito");
+		}
+	hora.close();
+
+
+
+
+		
+		
+
+	}
+
+}

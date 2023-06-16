@@ -1,0 +1,55 @@
+package entedidades;
+
+public class Persona {
+	
+	
+//  1.- Propiedades o atributos
+	
+	public String nombre;
+	public int edad;
+	public String correo;
+	public String telefono;
+			
+	
+//	2.- Constructor
+	
+	public Persona( String nombre, int edad, String correo, String telefono) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.correo = correo;
+		this.telefono = telefono;
+		
+	}//Cierre de constructor
+	
+//	3.- Métodos
+	
+	public void mostrarInformacion () {
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Edad: "+ edad);
+		System.out.println("Correo: " + correo);
+		System.out.println("Telefono: " + telefono);
+
+	}//Cierre de mostrarInformacion
+	
+
+	//Metodo main es una funcion "ejecutora"
+	public static void main(String[] args) {
+		
+		
+		//Instancia de un objeto Persona
+		
+		Persona Felipe = new Persona("Felipe", 31, "Felipe.maqueda@idr.edu.mx", "55123456789");
+		
+		Felipe.mostrarInformacion();
+		
+		
+		
+		
+		
+		
+		
+		 
+
+	}//Cierre del main
+
+}//Cierre clase persona

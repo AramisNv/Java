@@ -1,0 +1,43 @@
+package operadoresLogicos;
+import java.util.Scanner;
+public class EjerciciosLogicos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		
+		Scanner read= new Scanner (System.in);
+//		Los operadores lógicos se utilizan para combinar valores boolean y nos devuelven un resultado verdadero, falso o nulo
+		
+//		&& and (Y)
+//		|| or (O)
+//		! not (no)
+		System.out.println("Ingrese un numero entero:");
+		int a = 5;
+		
+//		//int b = 3;
+		
+//		
+////		Aplicamos operador not, lo cual niega toda la operacion, dandonos true
+//		System.out.println(!(a == b)  && a > b);
+//		
+////		Aplicamos operador and y nos da false, ya que uno no es cierta
+//		System.out.println(a == b  && a > b);
+//		
+////		Aplicamos operador or 
+//		System.out.println((a == b  ||  a > b);
+		
+		
+		if (a%PAR ==0) {
+			System.out.println( "El numero " + a + "es par");
+			
+		}else {
+			System.out.println( "El numero " + a + "es impar");
+		}
+		
+		
+
+	}
+
+}

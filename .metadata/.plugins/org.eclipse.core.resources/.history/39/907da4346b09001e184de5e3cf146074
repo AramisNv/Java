@@ -1,0 +1,45 @@
+package tiposVariables;
+
+public class Ejercicios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//System.out.println("Hola mundo");
+		//Tipos de datos:
+		
+//		byte : Sirve para representar un valor númerico de 8 bits
+		
+		byte salas = 10;
+		System.out.println(salas);
+		
+//		short: Sirve para representar un valor númerico de 16 bits
+		
+		short asientos = 1120;
+		System.out.println(asientos);
+		
+//		int: Sirve para representar un valor númerico de 32 bits
+		
+		int dulces =  3476;
+		System.out.println(dulces);
+		
+//		long: Sirve para representar un valor númerico de 64 bits. Debe llevar una l al final
+		
+		long clientes = 313600l;
+		System.out.println(clientes);
+		
+//		Datos que pueden tener punto decimal
+		
+//	Float: nos sirve para almacenar un valor númerico de 23 bits, debe llevar una f al final
+		
+		float palomitas = 35.5f ;
+		System.out.println(palomitas, "kg");
+	
+		
+		
+		
+		
+	}
+
+
+}

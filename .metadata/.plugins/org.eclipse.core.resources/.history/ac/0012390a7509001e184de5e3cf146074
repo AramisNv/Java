@@ -1,0 +1,22 @@
+package tiposVariables;
+
+public class hotelEquipo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+//		Nombre Hotel : 
+		
+//		byte
+		byte numHabitaciones = 127;
+		System.out.println(numHabitaciones);
+		
+		//
+		
+		
+
+	}
+
+}

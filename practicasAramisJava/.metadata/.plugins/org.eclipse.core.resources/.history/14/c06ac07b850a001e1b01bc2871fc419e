@@ -1,0 +1,38 @@
+package practicasDeAramis;
+
+public class ejerciciosAritmeticos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+//		Operacion con suma :
+		
+		int numeroUno = 5;
+		int numeroDos = 4;
+		int numeroTres = 26;
+		int numeroCuatro = 23;
+			
+		int resultado = 0;
+		int resultado1 =0;
+		int resultado2 =0;
+		
+		resultado = numeroUno + numeroDos;
+		System.out.println("El valor de tu suma es:" + resultado);
+		
+		resultado1 = numeroCuatro * numeroTres;
+		System.out.println("El valor de tu multiplicacion es: " + resultado1);
+		
+		resultado2 = numeroDos / numeroTres;
+		System.out.println("El valor de tu division es:" + resultado2);
+		
+		resultado2 = numeroCuatro - numeroUno;
+		System.out.println("El resultado de tu resta es:" + resultado2);
+		
+		
+		
+		
+
+	}
+
+}

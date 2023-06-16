@@ -1,0 +1,17 @@
+package practicasDeAramis;
+
+public class ejerciciosAritmeticos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numeroUno = 5;
+		int numeroDos = 4;
+		int resultado = 0;
+		
+		resultado = numeroUno + numeroDos;
+		System.out.println("El valor de tu suma es:" + resultado);
+
+	}
+
+}

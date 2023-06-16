@@ -1,0 +1,20 @@
+package tiposVariables;
+
+public class Ejercicios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//System.out.println("Hola mundo");
+		//Tipos de datos:
+		
+//		byte : Sirve para representar un valor númerico de 8 bits
+		
+		byte salas = 10;
+		System.out.println(salas);
+	
+		
+	}
+
+
+}

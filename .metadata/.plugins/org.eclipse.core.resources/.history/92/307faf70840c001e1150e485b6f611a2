@@ -1,0 +1,86 @@
+package entedidades;
+
+public class Persona {
+	
+	
+//  1.- Propiedades o atributos
+	
+	public String nombre;
+	public int edad;
+	public String correo;
+	public String telefono;
+			
+	
+//	2.- Constructor
+	
+	//2. Constructor (con 4 parametros)
+    public Persona(String nombre, int edad, String correo, String telefono) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.correo = correo;
+        this.telefono = telefono;    
+    }//cierre de constructor
+    
+    
+    
+    //Sobrecarga de metodo (overloading) constructor con 3
+    public Persona(String nombre, int edad, String correo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.correo = correo;
+    }
+    
+
+    //Sobrecarga de metodo (overloading) constructor con 2 
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;            
+        this.edad = edad;
+    }
+	
+//	//Metodo para convertir dolares a pesos (funcion que retorna flotantes)
+//    public float conversor(float conversionDolar) {
+//        float dolar = 16.50f;
+//        float conversion = dolar*conversionDolar;
+//        System.out.println(conversion);
+//        return conversion;
+//    }//cierre de conversor
+
+    
+    
+	//Metodo main es una funcion "ejecutora"
+	public static void main(String[] args) {
+		
+		
+		//Instancia de un objeto Persona
+		
+		Persona Felipe = new Persona("Felipe", 31, "Felipe.maqueda@idr.edu.mx", "55123456789");
+		Felipe.mostrarInformacion();
+		
+		Persona Aramis = new Persona("Aramis", 29, "Ara_nmc@hotmail.com", "6671895623");
+		Aramis.mostrarInformacion();
+		
+		Persona Alejandro = new Persona ("Alejandro", 37, "ale@gmail.com", "6673895623");
+		Alejandro.mostrarInformacion();
+		
+		Persona Saul = new Persona ("Saul", 31, "saulitonegrito@gmail.com", "6673451278");
+		Saul.mostrarInformacion();
+		
+		Persona Humberto = new Persona ("Humberto", 33, "humbertinimejilla@gmail.com", "6678562391");
+		Humberto.mostrarInformacion();
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		 
+
+	}//Cierre del main
+
+}//Cierre clase persona
